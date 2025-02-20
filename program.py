@@ -23,3 +23,6 @@ while timer > 0:
         print('Resetting...')
         time.sleep(3)
         timer = 30 
+
+
+print('zaina is chopped')
