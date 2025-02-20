@@ -8,19 +8,16 @@ numbers = ['1','2','3','4']
 for number in numbers:
     print(number)
 
-timer = 30
+Clip = 30
 import time
 
-while timer > 0:
-    timer -= 1
-    if timer < 30 and timer > 1:
-        print('There is ' + str(timer) + " seconds left..." )
+while Clip > 0:
+    Clip -= 1
+    if Clip < 30 and Clip > 1:
+        print('Fa Fa Fa ... ' + str(Clip))
         time.sleep(1)
-    if timer == 1:
-        print('There is ' + str(timer) + " second left..." )
-        time.sleep(1)
-    if timer == 0:
-        print('Resetting...')
+    if Clip == 0:
+        print('Reloading...')
         time.sleep(3)
-        timer = 30 
+        Clip = 30 
 
