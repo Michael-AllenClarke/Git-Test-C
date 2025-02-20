@@ -1,5 +1,7 @@
 letters = ['A', 'B', 'C', 'D']
 
+i = True
+
 for letter in letters:
     print(letter.lower())
 
@@ -23,4 +25,7 @@ while timer > 0:
         print('Resetting...')
         time.sleep(3)
         timer = 30 
-
+        
+while i == True:
+    print('hi mikey')
+    
