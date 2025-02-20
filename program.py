@@ -24,5 +24,3 @@ while timer > 0:
         time.sleep(3)
         timer = 30 
 
-
-print('zaina is chopped')
